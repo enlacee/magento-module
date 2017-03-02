@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Altimea_ScheduledTasks>
+			<version>0.1.0</version>    <!-- Version number of your module -->
+		</Altimea_ScheduledTasks>
+	</modules>
+	<frontend>
+		<routers>
+			<scheduledtasks>
+				<use>standard</use>
+				<args>
+					<module>Altimea_ScheduledTasks</module>
+					<frontName>scheduledtasks</frontName>
+				</args>
+			</scheduledtasks>
+		</routers>
+	</frontend>
+</config>
