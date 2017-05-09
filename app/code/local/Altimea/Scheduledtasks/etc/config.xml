@@ -20,4 +20,25 @@
             </scheduledtasks>
         </routers>
     </frontend>
+
+    <global>
+        <helpers>
+            <altimea_scheduledtasks>
+                <!-- Helper definition needed by Magento -->
+                <class>Mage_Core_Helper</class>
+            </altimea_scheduledtasks>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <foo_bar before="Mage_Adminhtml">Altimea_Scheduledtasks_Adminhtml</foo_bar>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
 </config>
