@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <config>
     <modules>
-        <Altimea_ScheduledTasks>
+        <Altimea_Scheduledtasks>
             <active>true</active>
             <codePool>local</codePool>
-        </Altimea_ScheduledTasks>
+        </Altimea_Scheduledtasks>
     </modules>
 </config>
